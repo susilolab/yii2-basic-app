@@ -14,18 +14,22 @@ features to your application.
 
 DIRECTORY STRUCTURE
 -------------------
-
-      assets/             contains assets definition
-      commands/           contains console commands (controllers)
-      config/             contains application configurations
-      controllers/        contains Web controller classes
-      mail/               contains view files for e-mails
-      models/             contains model classes
-      runtime/            contains files generated during runtime
-      tests/              contains various tests for the basic application
-      vendor/             contains dependent 3rd-party packages
-      views/              contains view files for the Web application
-      web/                contains the entry script and Web resources
+      assets
+      index.php
+      index-test.php
+      favicon.ico
+      protected
+          assets/             contains assets definition
+          commands/           contains console commands (controllers)
+          config/             contains application configurations
+          controllers/        contains Web controller classes
+          mail/               contains view files for e-mails
+          models/             contains model classes
+          runtime/            contains files generated during runtime
+          tests/              contains various tests for the basic application
+          vendor/             contains dependent 3rd-party packages
+          views/              contains view files for the Web application
+          web/                contains the entry script and Web resources
 
 
 
@@ -54,7 +58,7 @@ Now you should be able to access the application through the following URL, assu
 directly under the Web root.
 
 ~~~
-http://localhost/basic/web/
+http://localhost/basic
 ~~~
 
 
@@ -75,7 +79,7 @@ Set cookie validation key in `config/web.php` file to some random secret string:
 You can then access the application through the following URL:
 
 ~~~
-http://localhost/basic/web/
+http://localhost/basic
 ~~~
 
 
