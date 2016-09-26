@@ -1,17 +1,15 @@
 {
-    "name": "yiisoft/yii2-app-basic",
-    "description": "Yii 2 Basic Project Template",
+    "name": "susilolab/yii2-basic-app",
+    "description": "Yii2 basic app template but old structure yii1",
     "keywords": ["yii2", "framework", "basic", "project template"],
-    "homepage": "http://www.yiiframework.com/",
-    "type": "project",
+    "authors": [
+        {
+            "name": "Agus Susilo",
+            "email": "smartgdi@gmail.com"
+        }
+    ],
+	"type": "project",
     "license": "BSD-3-Clause",
-    "support": {
-        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
-        "forum": "http://www.yiiframework.com/forum/",
-        "wiki": "http://www.yiiframework.com/wiki/",
-        "irc": "irc://irc.freenode.net/yii",
-        "source": "https://github.com/yiisoft/yii2"
-    },
     "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.0",
@@ -29,6 +27,7 @@
         "codeception/specify": "~0.4.3"
     },
     "config": {
+    	"vendor-dir": "protected/vendor",
         "process-timeout": 1800
     },
     "scripts": {
